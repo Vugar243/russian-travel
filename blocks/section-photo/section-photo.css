@@ -1,0 +1,22 @@
+.section-photo {
+  margin: 0 48px 0;
+  padding-bottom: 92px;
+}
+@media screen and (max-width: 1024px) {
+  .section-photo {
+    margin: 0 48px 0;
+    padding-bottom: 92px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-photo {
+    margin: 0 24px 0;
+    padding-bottom: 88px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .section-photo {
+    margin: 0 16px 0;
+    padding-bottom: 64px;
+  }
+}
