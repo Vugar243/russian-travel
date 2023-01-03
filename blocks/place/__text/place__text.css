@@ -1,18 +1,21 @@
 .place__text {
+  grid-area: paragraph;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
   margin: 0;
-  padding-bottom: 26px;
 }
-.place__text:last-child {
-  padding-bottom: 0;
-}
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .place__text {
-    padding-bottom: 27px;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 73px;
   }
 }
 @media screen and (max-width: 320px) {
   .place__text {
-    padding: 0 16px 25px;
+    padding-bottom: 50px;
   }
 }
-

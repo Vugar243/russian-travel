@@ -9,9 +9,8 @@
     margin: 0 24px 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 612px) {
   .footer {
-    display: flex;
     justify-content: flex-start;
     flex-direction: column;
     margin: 0 118px 0 16px;

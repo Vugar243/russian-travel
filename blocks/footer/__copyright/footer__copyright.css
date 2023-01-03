@@ -8,7 +8,7 @@
   text-align: right;
   color: #FFFFFF;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 612px) {
   .footer__copyright {
     display: flex;
     justify-content: flex-start;
